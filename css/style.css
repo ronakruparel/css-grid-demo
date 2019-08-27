@@ -46,3 +46,15 @@ body {
   border-radius: 50%;
   margin: 0 2px;
 }
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+ul.breadcrumb li {
+  display: inline;
+}
+ul.breadcrumb li + li:before {
+  padding: 5px;
+  color: black;
+  content: ">\00a0";
+}
