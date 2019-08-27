@@ -36,6 +36,11 @@ body {
 #more {
   display: none;
 }
+#readMore {
+  text-decoration: underline;
+  cursor: pointer;
+  color: blue;
+}
 .dot {
   cursor: pointer;
   bottom: 10px;

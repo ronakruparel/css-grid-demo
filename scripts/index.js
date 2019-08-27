@@ -10,5 +10,6 @@ function toggleReadmore() {
     dots.style.display = "none";
     more.style.display = "inline";
     btnText.innerHTML = "Read Less";
+    btnText.style.color = "#609";
   }
 }
