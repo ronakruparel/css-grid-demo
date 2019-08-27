@@ -57,9 +57,29 @@ ul.breadcrumb {
 }
 ul.breadcrumb li {
   display: inline;
+  font-size: 1.2em;
 }
 ul.breadcrumb li + li:before {
   padding: 5px;
   color: black;
   content: ">\00a0";
+}
+.sub-section {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+.subtitle {
+  color: white;
+  background: #000;
+  margin: 0;
+}
+.content {
+  background: #eee;
+}
+
+@media only screen and (max-width: 768px) {
+  .sub-section {
+    display: grid;
+    grid-template-columns: 1fr !important;
+  }
 }
