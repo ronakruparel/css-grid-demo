@@ -77,6 +77,14 @@ ul.breadcrumb li + li:before {
   background: #eee;
 }
 
+#backToTop {
+  position: absolute;
+  z-index: 999;
+  right: 10px;
+  margin: 10px 10px;
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   .sub-section {
     display: grid;
