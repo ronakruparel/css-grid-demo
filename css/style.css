@@ -68,6 +68,15 @@ ul.breadcrumb li + li:before {
 .sub-section {
   display: grid;
   grid-template-columns: 3fr 2fr;
+  grid-gap: 20px;
+}
+
+.sub-section :nth-child(odd) {
+  background-color: #bdafaf;
+}
+
+.sub-section :nth-child(even) {
+  background-color: #b7b7e0;
 }
 .subtitle {
   color: white;
