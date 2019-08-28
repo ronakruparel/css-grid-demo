@@ -103,4 +103,9 @@ ul.breadcrumb li + li:before {
     display: grid;
     grid-template-columns: 1fr !important;
   }
+  .inner {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
